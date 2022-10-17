@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.medsos{
+    padding: 5px 0;
+    background-color: #335BFF;
+}
+.medsos ul li{
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+
+}
+header h1{
+    float: left;
+    padding: 15px 0;
+    color: #335BFF;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: #335BFF;
+    color: #fff;
+}
+.active{
+    background-color: #335BFF;
+    color: #fff;
+}
+.banner{
+    height: 60vh;
+    background-image: url(banner.jpeg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.banner:after{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(51, 91, 255, .6)
+}
+.banner h2{
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+section{
+    padding: 50px 0;
+}
+section h3{
+    text-align: center;
+    padding: 20px 0;
+    color: #335BFF;
+}
+.about p{
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-left: 480px;
+}
+.contact{
+
+}
+footer{
+    padding: 30px 0;
+    text-align: center;
+    margin-right:500px;
+}
+.services{
+    background-color: #E6EFFA;
+}
+.box{
+    color: #1EF93C ;
+}
+.box::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.box .col-4{
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+.boxs .col-4{
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.box .col-4 h4{
+    margin: 20px 0;
+}
+.container_footer{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
